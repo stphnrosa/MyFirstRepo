@@ -10,13 +10,14 @@ let capacity = 0;
 //if its 50-80% then it's just monitored
 //in weeks 1 we are less then 50% of max capacity
 
-if (capacity > area * 0.8) {
+let week=
+//if=(capacity > area * 0.8) {
   console.log("capacity over 80%, prune");
-} else if (capacity >= area * 0.5) {
+// } else if (capacity >= area * 0.5) {
   console.log("Capacity is 50% - 80% capacity");
-} else {
+// } else {
   console.log("capacity is below 50%, we can plant some more");
-}
+// }
 
 
 //Part 2: determine:The amount of additional space that would be required if the scientists were to start with 100 plants, and did not prune them for 10 weeks. If the space remained circular, what would be the radius of this expanded garden?
