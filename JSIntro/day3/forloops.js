@@ -90,9 +90,10 @@
 // all numbers divisible by 2 should be multiplied by 3 before that are output & 
 // all other integers should not be output
 
-let s = 0
-while (s <20)  {
-    if(s % 2 == 0){
-    console.log(s*3)
-} s++
-}
+//let s = 0
+//while (s <20)  {
+    //if(s % 2 == 0){
+    //console.log(s*3)
+//} s++
+//}
+
